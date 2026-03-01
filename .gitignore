@@ -1,7 +1,6 @@
 # Виртуальное окружение
 env/
 venv/
-*.env
 *.pyenv
 
 # Файлы для кеширования
@@ -22,5 +21,6 @@ __pycache__/
 Thumbs.db  # Windows
 .DS_Store  # macOS
 
-# Отслеживать файл tmp_data.txt
+# Не отслеживать файл tmp_data.txt и .env
 tmp_data.txt
+.env
